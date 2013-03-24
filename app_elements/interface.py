@@ -1,6 +1,7 @@
 from logging import getLogger
 logger = getLogger('app_elements.interface')
 import datetime
+import os
 from platform_utils import web_browser, paths
 from wx_utils import popups
 import app_framework
