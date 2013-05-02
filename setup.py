@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-from app_framework import __version__, __author__, __doc__
+from app_elements import __version__, __author__, __doc__
 
 
 setup(
