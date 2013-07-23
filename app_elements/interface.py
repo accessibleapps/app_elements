@@ -12,7 +12,7 @@ def view_documentation():
  if paths.is_frozen():
   docpath = os.path.join(paths.embedded_data_path(), 'readme.html')
  else:
-  docpath = os.path.join(paths.app_path(), '..', 'doc', 'readme.html')
+  docpath = os.path.join(paths.app_path(), '..', 'documentation', 'readme.html')
  docpath = 'file://%s' % os.path.abspath(docpath)
  web_browser.open(docpath)
 
