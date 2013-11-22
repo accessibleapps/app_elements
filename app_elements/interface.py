@@ -2,11 +2,19 @@ from logging import getLogger
 logger = getLogger('app_elements.interface')
 import datetime
 import os
+import sys
+import i18n_core
 from platform_utils import web_browser, paths
 from wx_utils import popups
 import app_framework
 import app_elements
 application = app_elements.find_application_module()
+
+def setup_localization():
+ i18n_core.install_module_translation('app_elements', module=sys.modules[setup_localization.__module__])
+
+setup_localization()
+
 
 def view_documentation():
  if paths.is_frozen():
