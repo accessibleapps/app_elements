@@ -9,6 +9,10 @@ setup(
  author = __author__,
  description = __doc__,
  packages = find_packages(),
+ package_data = {'app_elements':[
+   "locale/*/*/*",
+  ], },
+
  install_requires = [
   'platform_utils',
  ],
