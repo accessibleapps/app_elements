@@ -10,11 +10,9 @@ import app_framework
 import app_elements
 application = app_elements.find_application_module()
 
-def setup_localization():
- i18n_core.install_module_translation('app_elements', module=sys.modules[setup_localization.__module__])
+import i18n_core
 
-setup_localization()
-
+i18n_core.install_module_translation('app_elements', module=sys.modules[__name__])
 
 def view_documentation():
  if paths.is_frozen():
