@@ -6,7 +6,7 @@ application = app_elements.find_application_module()
 import app_elements.interface
 
 import i18n_core
-i18n_core.install_module_translation('app_elements', module=sys.modules[__name__])
+i18n_core.install_module_translation('app_elements', module=sys.modules['app_elements.menu'])
 
 class HelpMenu(forms.Menu):
  documentation = MenuItem(label=__("%s &Documentation") % application.name, hotkey='f1', callback=app_elements.interface.view_documentation)
