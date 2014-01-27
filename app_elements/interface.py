@@ -7,6 +7,7 @@ import i18n_core
 from platform_utils import web_browser, paths
 from wx_utils import popups
 import app_framework
+import app_framework.shutdown
 import app_elements
 application = app_elements.find_application_module()
 
