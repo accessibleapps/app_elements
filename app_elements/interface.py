@@ -17,9 +17,10 @@ i18n_core.install_module_translation('app_elements', module=sys.modules[__name__
 
 def view_documentation():
  if paths.is_frozen():
-  docpath = os.path.join(paths.embedded_data_path(), 'readme.html')
+  docpath = paths.embedded_data_path()
  else:
-  docpath = os.path.join(paths.app_path(), '..', 'documentation', 'readme.html')
+  docpath = os.path.join(paths.app_path(), '..', 'documentation')
+ docpath = os.path.join(docpath, 'readme.html')
  docpath = 'file://%s' % os.path.abspath(docpath)
  web_browser.open(docpath)
 
