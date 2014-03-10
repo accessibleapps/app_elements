@@ -32,3 +32,22 @@ def show_about_dialog():
 
 def exit():
  app_framework.shutdown.shutdown(application)
+
+def report_issue():
+ import gui_builder
+ import issue_reporter.gui
+ dlg = issue_reporter.gui.IssueReporterDialog(parent=application.main_window, title=__("Report an Issue"))
+ if dlg.display_modal() != gui_builder.OK:
+  return
+ report = dlg.get_report()
+ report.log_paths.append(application.error_log_path)
+ def future_complete(future):
+  try:
+   result = future.result()
+  except Exception as e:
+   logger.exception("Error submitting issue report. Not a good day.")
+   popups.warning_message(title=_("Error"), message=_("There was an issue submitting your issue report. Badness."))
+   return
+  popups.message_box(title=_("Issue submitted"), message=_("Thanks for your report!"))
+ f = application.executor.submit(application.issue_reporter.send_report, report)
+  f.add_done_callback(future_complete)
