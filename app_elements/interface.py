@@ -51,3 +51,6 @@ def report_issue():
   popups.message_box(title=_("Issue submitted"), message=_("Thanks for your report!"))
  f = application.executor.submit(application.issue_reporter.send_report, report)
  f.add_done_callback(future_complete)
+
+def activate_app():
+ application.activation_manager.check_activation_status()
