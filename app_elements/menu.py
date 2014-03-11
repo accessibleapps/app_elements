@@ -14,5 +14,7 @@ class HelpMenu(forms.Menu):
  documentation = MenuItem(label=__("%s &Documentation") % application.name, hotkey='f1', callback=app_elements.interface.view_documentation)
  if app_framework.helpers.has_issue_reporter(application):
   report_issue = MenuItem(label=__("&Report an Issue..."), callback=app_elements.interface.report_issue)
+ if app_framework.helpers.has_activation(application):
+  activate = MenuItem(label=__("&Activate %s...") % application.name, callback=app_elements.interface.activate_app)
  about = MenuItem(label=__("&About %s...") % application.name, callback=app_elements.interface.show_about_dialog)
 
