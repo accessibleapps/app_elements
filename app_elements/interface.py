@@ -38,6 +38,7 @@ def report_issue():
  import issue_reporter.gui
  dlg = issue_reporter.gui.IssueReporterDialog(parent=application.main_window, title=__("Report an Issue"))
  if dlg.display_modal() != gui_builder.OK:
+  dlg.destroy()
   return
  report = dlg.get_report()
  report.log_paths.append(application.error_log_path)
