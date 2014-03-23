@@ -8,28 +8,57 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2013-11-11 13:39-0700\n"
+"POT-Creation-Date: 2014-03-23 17:23-0600\n"
 "PO-Revision-Date: 2013-12-05 08:26+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: es_ES <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 1.3\n"
-"X-Generator: Poedit 1.5.7\n"
 
-#: interface.py:20
+#: interface.py:31
 #, python-format
 msgid "Copyright %d %s"
 msgstr "Copyright %d %s"
 
-#: menu.py:8
+#: interface.py:39
+msgid "Report an Issue"
+msgstr ""
+
+#: interface.py:50
+msgid "Error"
+msgstr ""
+
+#: interface.py:50
+msgid "There was an issue submitting your issue report. Badness."
+msgstr ""
+
+#: interface.py:52
+msgid "Issue submitted"
+msgstr ""
+
+#: interface.py:52
+msgid "Thanks for your report!"
+msgstr ""
+
+#: menu.py:14
 #, python-format
 msgid "%s &Documentation"
 msgstr "%s &Ayuda"
 
-#: menu.py:9
+#: menu.py:16
+msgid "&Report an Issue..."
+msgstr ""
+
+#: menu.py:18
+#, python-format
+msgid "&Activate %s..."
+msgstr ""
+
+#: menu.py:19
 #, python-format
 msgid "&About %s..."
 msgstr "&Acerca de %s..."
+
