@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-03-23 17:23-0600\n"
+"POT-Creation-Date: 2014-03-23 20:51-0600\n"
 "PO-Revision-Date: 2013-11-26 19:58+0100\n"
 "Last-Translator: Piotr Machacz <pitermach@gmail.com>\n"
 "Language-Team: de <LL@li.org>\n"
@@ -27,19 +27,19 @@ msgstr "Copyright %d %s"
 msgid "Report an Issue"
 msgstr ""
 
-#: interface.py:50
+#: interface.py:51
 msgid "Error"
 msgstr ""
 
-#: interface.py:50
+#: interface.py:51
 msgid "There was an issue submitting your issue report. Badness."
 msgstr ""
 
-#: interface.py:52
+#: interface.py:53
 msgid "Issue submitted"
 msgstr ""
 
-#: interface.py:52
+#: interface.py:53
 msgid "Thanks for your report!"
 msgstr ""
 
