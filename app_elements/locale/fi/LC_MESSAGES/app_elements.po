@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-03-23 20:51-0600\n"
-"PO-Revision-Date: 2014-03-19 08:16+0200\n"
+"POT-Creation-Date: 2014-03-24 15:45-0600\n"
+"PO-Revision-Date: 2014-03-24 07:25+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: fi <jani.kinnunen@wippies.fi>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
@@ -25,37 +25,37 @@ msgstr "Copyright %d %s"
 
 #: interface.py:39
 msgid "Report an Issue"
-msgstr ""
+msgstr "Ilmoita ongelma"
 
 #: interface.py:51
 msgid "Error"
-msgstr ""
+msgstr "Virhe"
 
 #: interface.py:51
 msgid "There was an issue submitting your issue report. Badness."
-msgstr ""
+msgstr "Virhe lähetettäessä ongelmaraporttiasi."
 
 #: interface.py:53
 msgid "Issue submitted"
-msgstr ""
+msgstr "Ongelmaraportti lähetetty"
 
 #: interface.py:53
 msgid "Thanks for your report!"
-msgstr ""
+msgstr "Kiitos ilmoituksestasi!"
 
 #: menu.py:14
 #, python-format
 msgid "%s &Documentation"
-msgstr "%s -&ohjeet"
+msgstr "%s-&ohje"
 
 #: menu.py:16
 msgid "&Report an Issue..."
-msgstr ""
+msgstr "&Ilmoita ongelma..."
 
 #: menu.py:18
 #, python-format
 msgid "&Activate %s..."
-msgstr ""
+msgstr "&Aktivoi %s..."
 
 #: menu.py:19
 #, python-format
