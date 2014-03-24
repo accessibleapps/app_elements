@@ -41,6 +41,7 @@ def report_issue():
   dlg.destroy()
   return
  report = dlg.get_report()
+ report.application_name = application.name
  report.log_paths.append(application.error_log_path)
  def future_complete(future):
   try:
