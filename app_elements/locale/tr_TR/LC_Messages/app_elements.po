@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-03-23 20:51-0600\n"
-"PO-Revision-Date: 2014-02-10 15:02+0200\n"
+"POT-Creation-Date: 2014-03-24 15:45-0600\n"
+"PO-Revision-Date: 2014-03-24 15:57+0200\n"
 "Last-Translator: Salih Kunduz <salihk55@gmail.com>\n"
 "Language-Team: fil_PH <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
@@ -25,23 +25,23 @@ msgstr "Copyright %d %s"
 
 #: interface.py:39
 msgid "Report an Issue"
-msgstr ""
+msgstr "Sorun bildir"
 
 #: interface.py:51
 msgid "Error"
-msgstr ""
+msgstr "Hata"
 
 #: interface.py:51
 msgid "There was an issue submitting your issue report. Badness."
-msgstr ""
+msgstr "Sorununuzu iletirken bir hata ile karşılaştık. Hay aksi!"
 
 #: interface.py:53
 msgid "Issue submitted"
-msgstr ""
+msgstr "Sorunn iletildi."
 
 #: interface.py:53
 msgid "Thanks for your report!"
-msgstr ""
+msgstr "Raporunuz için teşekkür ederiz."
 
 #: menu.py:14
 #, python-format
@@ -50,12 +50,12 @@ msgstr "%s &Kullanım kılavuzu"
 
 #: menu.py:16
 msgid "&Report an Issue..."
-msgstr ""
+msgstr "&Bir sorun bildir..."
 
 #: menu.py:18
 #, python-format
 msgid "&Activate %s..."
-msgstr ""
+msgstr "%s ürününü etkinleştir"
 
 #: menu.py:19
 #, python-format
