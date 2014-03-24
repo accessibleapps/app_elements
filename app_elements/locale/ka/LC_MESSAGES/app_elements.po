@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-03-23 17:23-0600\n"
-"PO-Revision-Date: 2014-02-08 17:01+0400\n"
+"POT-Creation-Date: 2014-03-23 20:51-0600\n"
+"PO-Revision-Date: 2014-03-23 18:02-0800\n"
 "Last-Translator: Crystal <crystal@e-mail.ua>\n"
 "Language-Team: georgian translation team <beqaprogger@gmail.com>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
@@ -26,23 +26,25 @@ msgstr "© %d %s"
 
 #: interface.py:39
 msgid "Report an Issue"
-msgstr ""
+msgstr "პრობლემის შეტყობინება"
 
-#: interface.py:50
+#: interface.py:51
 msgid "Error"
-msgstr ""
+msgstr "შეცდომა"
 
-#: interface.py:50
+#: interface.py:51
 msgid "There was an issue submitting your issue report. Badness."
 msgstr ""
+"პრობლემის შესახებ შეტყობინების გაგზავნის დროს მოხდა შეცდომა,რაც ძალიან "
+"ცუდია."
 
-#: interface.py:52
+#: interface.py:53
 msgid "Issue submitted"
-msgstr ""
+msgstr "შეტყობინება პრობლემის შესახებ გაგზავნილია"
 
-#: interface.py:52
+#: interface.py:53
 msgid "Thanks for your report!"
-msgstr ""
+msgstr "გმადლობთ შეტყობინებისთვის!"
 
 #: menu.py:14
 #, python-format
@@ -51,12 +53,12 @@ msgstr "%s-ის &დოკუმენტაცია"
 
 #: menu.py:16
 msgid "&Report an Issue..."
-msgstr ""
+msgstr "&შეტყობინება პრობლემის შესახებ..."
 
 #: menu.py:18
 #, python-format
 msgid "&Activate %s..."
-msgstr ""
+msgstr "%sის &გააქტიურება..."
 
 #: menu.py:19
 #, python-format
