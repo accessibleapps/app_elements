@@ -43,6 +43,7 @@ def report_issue():
  report = dlg.get_report()
  report.application_name = application.name
  report.log_paths.append(application.error_log_path)
+ dlg.destroy()
  def future_complete(future):
   try:
    result = future.result()
@@ -52,7 +53,7 @@ def report_issue():
    return
   popups.message_box(title=_("Issue submitted"), message=_("Thanks for your report!"))
  f = application.executor.submit(application.issue_reporter.send_report, report)
- f.add_done_callback(future_complete)
+ f.add_done_callback(lambda f: wx.CallAfter(future_complete, f))
 
 def activate_app():
  application.activation_manager.check_activation_status()
