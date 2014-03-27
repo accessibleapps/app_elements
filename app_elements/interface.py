@@ -3,6 +3,7 @@ logger = getLogger('app_elements.interface')
 import datetime
 import os
 import sys
+import wx
 import i18n_core
 from platform_utils import web_browser, paths
 from wx_utils import popups
