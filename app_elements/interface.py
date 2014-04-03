@@ -21,9 +21,13 @@ def view_documentation():
   docpath = paths.embedded_data_path()
  else:
   docpath = os.path.join(paths.app_path(), '..', 'documentation')
- locale = application.locale.split('_')[0]
+ locale = application.locale
  if os.path.exists(os.path.join(docpath, locale)):
   docpath = os.path.join(docpath, locale)
+ else:
+  locale = locale.split('_')[0]
+  if os.path.exists(os.path.join(docpath, locale)):
+   docpath = os.path.join(docpath, locale)
  docpath = os.path.join(docpath, 'readme.html')
  docpath = 'file://%s' % os.path.abspath(docpath)
  web_browser.open(docpath)
