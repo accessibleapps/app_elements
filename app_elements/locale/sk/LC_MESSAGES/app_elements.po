@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-03-24 15:45-0600\n"
-"PO-Revision-Date: 2013-12-14 20:16+0100\n"
+"POT-Creation-Date: 2014-04-06 22:37-0600\n"
+"PO-Revision-Date: 2014-04-01 09:34+0100\n"
 "Last-Translator: Ondrej Rosík <ondrej.rosik@gmail.com>\n"
 "Language-Team: sk <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
@@ -19,30 +19,30 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 1.3\n"
 
-#: interface.py:31
+#: interface.py:36
 #, python-format
 msgid "Copyright %d %s"
 msgstr "Autorské práva %d %s"
 
-#: interface.py:39
+#: interface.py:44
 msgid "Report an Issue"
-msgstr ""
+msgstr "Oznámenie o chybe"
 
-#: interface.py:51
+#: interface.py:58
 msgid "Error"
-msgstr ""
+msgstr "Chyba"
 
-#: interface.py:51
+#: interface.py:58
 msgid "There was an issue submitting your issue report. Badness."
-msgstr ""
+msgstr "Pri odoslaní chyby došlo k chybe. To je fakt smola."
 
-#: interface.py:53
+#: interface.py:60
 msgid "Issue submitted"
-msgstr ""
+msgstr "Oznámenie o chybe úspešne odoslané"
 
-#: interface.py:53
+#: interface.py:60
 msgid "Thanks for your report!"
-msgstr ""
+msgstr "Ďakujeme za informácie!"
 
 #: menu.py:14
 #, python-format
@@ -51,12 +51,12 @@ msgstr "%s &Používateľská príručka"
 
 #: menu.py:16
 msgid "&Report an Issue..."
-msgstr ""
+msgstr "Oznámiť p&roblém..."
 
 #: menu.py:18
 #, python-format
 msgid "&Activate %s..."
-msgstr ""
+msgstr "&Aktivovať %s..."
 
 #: menu.py:19
 #, python-format

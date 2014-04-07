@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-03-24 15:45-0600\n"
+"POT-Creation-Date: 2014-04-06 22:37-0600\n"
 "PO-Revision-Date: 2014-03-24 15:57+0200\n"
 "Last-Translator: Salih Kunduz <salihk55@gmail.com>\n"
 "Language-Team: fil_PH <LL@li.org>\n"
@@ -18,28 +18,28 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 1.3\n"
 
-#: interface.py:31
+#: interface.py:36
 #, python-format
 msgid "Copyright %d %s"
 msgstr "Copyright %d %s"
 
-#: interface.py:39
+#: interface.py:44
 msgid "Report an Issue"
 msgstr "Sorun bildir"
 
-#: interface.py:51
+#: interface.py:58
 msgid "Error"
 msgstr "Hata"
 
-#: interface.py:51
+#: interface.py:58
 msgid "There was an issue submitting your issue report. Badness."
 msgstr "Sorununuzu iletirken bir hata ile karşılaştık. Hay aksi!"
 
-#: interface.py:53
+#: interface.py:60
 msgid "Issue submitted"
 msgstr "Sorunn iletildi."
 
-#: interface.py:53
+#: interface.py:60
 msgid "Thanks for your report!"
 msgstr "Raporunuz için teşekkür ederiz."
 
