@@ -16,5 +16,7 @@ class HelpMenu(forms.Menu):
   report_issue = MenuItem(label=__("&Report an Issue..."), callback=app_elements.interface.report_issue)
  if app_framework.helpers.has_activation(application):
   activate = MenuItem(label=__("&Activate %s...") % application.name, callback=app_elements.interface.activate_app)
+ if app_framework.helpers.is_autoupdating(application):
+  check_for_update = MenuItem(label=__("Check for &Update"), callback=app_elements.interface.check_for_update)
  about = MenuItem(label=__("&About %s...") % application.name, callback=app_elements.interface.show_about_dialog)
 

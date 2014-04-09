@@ -63,3 +63,7 @@ def report_issue():
 
 def activate_app():
  application.activation_manager.check_activation_status()
+
+def check_for_update():
+ import app_framework.updates
+ app_framework.updates.check_for_update(application)
