@@ -62,7 +62,7 @@ def report_issue():
  f.add_done_callback(lambda f: wx.CallAfter(future_complete, f))
 
 def activate_app():
- application.activation_manager.check_activation_status()
+ application.activation_manager.prompt_for_activation()
 
 def check_for_update():
  import app_framework.updates
