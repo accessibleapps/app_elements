@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-04-08 15:52-0600\n"
+"POT-Creation-Date: 2014-04-14 17:59-0600\n"
 "PO-Revision-Date: 2014-03-24 01:38+0200\n"
 "Last-Translator: Andre Polykanine A.K.A. Menelion Elensúlë "
 "<menelion@oire.org>\n"
@@ -59,7 +59,11 @@ msgstr "Сооб&щить о проблеме..."
 msgid "&Activate %s..."
 msgstr "&Активировать %s..."
 
-#: menu.py:19
+#: menu.py:20
+msgid "Check for &Update"
+msgstr ""
+
+#: menu.py:21
 #, python-format
 msgid "&About %s..."
 msgstr "&О программе %s..."

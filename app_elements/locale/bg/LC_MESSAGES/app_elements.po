@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-04-08 15:52-0600\n"
-"PO-Revision-Date: 2014-04-05 22:56+0200\n"
+"POT-Creation-Date: 2014-04-14 17:59-0600\n"
+"PO-Revision-Date: 2014-04-11 22:48+0200\n"
 "Last-Translator: Negoslav Sabev <negi4a@gmail.com>\n"
 "Language-Team: negi4a <negi4a@gmail.com>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
@@ -51,14 +51,18 @@ msgstr "&Документация на %s"
 
 #: menu.py:16
 msgid "&Report an Issue..."
-msgstr "&Докладвай Нередности..."
+msgstr "Докладвай &Нередности..."
 
 #: menu.py:18
 #, python-format
 msgid "&Activate %s..."
 msgstr "&Активирай %s..."
 
-#: menu.py:19
+#: menu.py:20
+msgid "Check for &Update"
+msgstr ""
+
+#: menu.py:21
 #, python-format
 msgid "&About %s..."
 msgstr "&За %s..."

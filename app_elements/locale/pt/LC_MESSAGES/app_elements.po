@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-04-08 15:52-0600\n"
+"POT-Creation-Date: 2014-04-14 17:59-0600\n"
 "PO-Revision-Date: 2013-12-11 08:41-0300\n"
 "Last-Translator: Matheus Rheine <matheus_rheine@unifebe.edu.br>\n"
 "Language-Team: Matheus Rheine <matheus_rheine@unifebe.edu.br>\n"
@@ -57,7 +57,11 @@ msgstr ""
 msgid "&Activate %s..."
 msgstr ""
 
-#: menu.py:19
+#: menu.py:20
+msgid "Check for &Update"
+msgstr ""
+
+#: menu.py:21
 #, python-format
 msgid "&About %s..."
 msgstr "&Sobre %s..."
