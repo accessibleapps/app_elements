@@ -17,7 +17,7 @@ class LanguageSelectionPanel(wx_forms.AutoSizedPanel):
   super(LanguageSelectionPanel, self).render(*args, **kwargs)
   locales = [u"{name} ({english_name})".format(name=i.language_name, english_name=i.english_name) for i in self.locales]
   self.language.set_value(locales)
-  current_locale = application.locale
+  current_locale = application.locale.split('.')[-1]
   self.language.set_index([i.language for i in self.locales].index(current_locale))
 
  def set_config_values(self):
