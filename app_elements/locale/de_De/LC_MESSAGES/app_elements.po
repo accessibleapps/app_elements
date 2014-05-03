@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-04-14 17:59-0600\n"
+"POT-Creation-Date: 2014-05-03 13:11-0600\n"
 "PO-Revision-Date: 2014-03-22 17:24+0100\n"
 "Last-Translator: Bernd Dorer <bernd_dorer@yahoo.de>\n"
 "Language-Team: DE <bernd_dorer@yahoo.de>\n"
@@ -17,6 +17,18 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 1.3\n"
+
+#: audio.py:9
+msgid "&Output audio device"
+msgstr ""
+
+#: audio.py:11
+msgid "&Input Audio Device"
+msgstr ""
+
+#: i18n.py:10
+msgid "Application &Language (requires restart)"
+msgstr ""
 
 #: interface.py:36
 #, python-format
