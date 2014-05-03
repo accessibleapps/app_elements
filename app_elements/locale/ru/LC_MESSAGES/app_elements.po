@@ -8,10 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-04-14 17:59-0600\n"
-"PO-Revision-Date: 2014-03-24 01:38+0200\n"
-"Last-Translator: Andre Polykanine A.K.A. Menelion Elensúlë "
-"<menelion@oire.org>\n"
+"POT-Creation-Date: 2014-05-03 13:11-0600\n"
+"PO-Revision-Date: 2014-04-16 00:21+0200\n"
+"Last-Translator: Crystal <crystal@e-mail.ua>\n"
 "Language-Team: ru <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
@@ -19,6 +18,18 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 1.3\n"
+
+#: audio.py:9
+msgid "&Output audio device"
+msgstr ""
+
+#: audio.py:11
+msgid "&Input Audio Device"
+msgstr ""
+
+#: i18n.py:10
+msgid "Application &Language (requires restart)"
+msgstr ""
 
 #: interface.py:36
 #, python-format
@@ -61,7 +72,7 @@ msgstr "&Активировать %s..."
 
 #: menu.py:20
 msgid "Check for &Update"
-msgstr ""
+msgstr "Проверить &Обновление"
 
 #: menu.py:21
 #, python-format

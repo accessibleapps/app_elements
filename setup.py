@@ -12,7 +12,7 @@ setup(
  package_data = {'app_elements':[
    "locale/*/*/*",
   ], },
-
+ zip_safe = False,
  install_requires = [
   'platform_utils',
  ],
