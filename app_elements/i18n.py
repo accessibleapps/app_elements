@@ -22,9 +22,9 @@ class LanguageSelectionPanel(wx_forms.AutoSizedPanel):
   current_locale = application.locale.split('.')[0]
   languages = [i.language for i in self.locales]
   try:
-   index = languages.index(current_locale)
+   index = languages.index(current_locale.split('_')[0])
   except ValueError:
-   index = languages.index(i18n_core.DEFAULT_LOCALE)
+   index = languages.index(i18n_core.DEFAULT_LOCALE.split('_')[0])
   self.language.set_index(index)
 
  def set_config_values(self):
