@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-05-03 13:11-0600\n"
+"POT-Creation-Date: 2014-05-12 12:55-0600\n"
 "PO-Revision-Date: 2013-11-11 13:41-0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -27,7 +27,7 @@ msgstr ""
 msgid "&Input Audio Device"
 msgstr ""
 
-#: i18n.py:10
+#: i18n.py:11
 msgid "Application &Language (requires restart)"
 msgstr ""
 

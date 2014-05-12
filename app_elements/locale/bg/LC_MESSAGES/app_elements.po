@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-05-03 13:11-0600\n"
-"PO-Revision-Date: 2014-04-18 17:30+0200\n"
+"POT-Creation-Date: 2014-05-12 12:55-0600\n"
+"PO-Revision-Date: 2014-05-09 07:51+0200\n"
 "Last-Translator: Negoslav Sabev <negi4a@gmail.com>\n"
 "Language-Team: negi4a <negi4a@gmail.com>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
@@ -21,15 +21,15 @@ msgstr ""
 
 #: audio.py:9
 msgid "&Output audio device"
-msgstr ""
+msgstr "&Изходно звуково устройство"
 
 #: audio.py:11
 msgid "&Input Audio Device"
-msgstr ""
+msgstr "&Входно звуково устройство"
 
-#: i18n.py:10
+#: i18n.py:11
 msgid "Application &Language (requires restart)"
-msgstr ""
+msgstr "&Език на Приложението (изисква рестарт)"
 
 #: interface.py:36
 #, python-format

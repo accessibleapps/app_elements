@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-05-03 13:11-0600\n"
-"PO-Revision-Date: 2014-03-23 18:02-0800\n"
+"POT-Creation-Date: 2014-05-12 12:55-0600\n"
+"PO-Revision-Date: 2014-05-04 10:08-0800\n"
 "Last-Translator: Crystal <crystal@e-mail.ua>\n"
 "Language-Team: georgian translation team <beqaprogger@gmail.com>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
@@ -21,15 +21,15 @@ msgstr ""
 
 #: audio.py:9
 msgid "&Output audio device"
-msgstr ""
+msgstr "&გამომავალი აუდიო მოწყობილობა"
 
 #: audio.py:11
 msgid "&Input Audio Device"
-msgstr ""
+msgstr "&შემავალი აუდიო მოწყობილობა"
 
-#: i18n.py:10
+#: i18n.py:11
 msgid "Application &Language (requires restart)"
-msgstr ""
+msgstr "პროგრამის &ენა (ითხოვს გადატვირთვას)"
 
 #: interface.py:36
 #, python-format
@@ -74,7 +74,7 @@ msgstr "%sის &გააქტიურება..."
 
 #: menu.py:20
 msgid "Check for &Update"
-msgstr ""
+msgstr "&განახლების შემოწმება"
 
 #: menu.py:21
 #, python-format

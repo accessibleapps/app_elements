@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-05-03 13:11-0600\n"
-"PO-Revision-Date: 2014-04-01 09:34+0100\n"
+"POT-Creation-Date: 2014-05-12 12:55-0600\n"
+"PO-Revision-Date: 2014-05-08 12:55+0100\n"
 "Last-Translator: Ondrej Rosík <ondrej.rosik@gmail.com>\n"
 "Language-Team: sk <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
@@ -21,15 +21,15 @@ msgstr ""
 
 #: audio.py:9
 msgid "&Output audio device"
-msgstr ""
+msgstr "Výstupné zari&adenie"
 
 #: audio.py:11
 msgid "&Input Audio Device"
-msgstr ""
+msgstr "&Vstupné zariadenie"
 
-#: i18n.py:10
+#: i18n.py:11
 msgid "Application &Language (requires restart)"
-msgstr ""
+msgstr "&Jazyk (vyžaduje reštart)"
 
 #: interface.py:36
 #, python-format
@@ -72,7 +72,7 @@ msgstr "&Aktivovať %s..."
 
 #: menu.py:20
 msgid "Check for &Update"
-msgstr ""
+msgstr "Skontrolovať akt&ualizácie"
 
 #: menu.py:21
 #, python-format
