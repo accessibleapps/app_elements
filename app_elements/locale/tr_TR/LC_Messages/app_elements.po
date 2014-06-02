@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-05-12 13:08-0600\n"
-"PO-Revision-Date: 2014-04-16 08:53+0200\n"
+"POT-Creation-Date: 2014-06-02 01:34-0600\n"
+"PO-Revision-Date: 2014-05-20 10:14+0200\n"
 "Last-Translator: Salih Kunduz <salihk55@gmail.com>\n"
 "Language-Team: fil_PH <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
@@ -20,15 +20,15 @@ msgstr ""
 
 #: audio.py:9
 msgid "&Output audio device"
-msgstr ""
+msgstr "&Ses çıkış aygıtı"
 
 #: audio.py:11
 msgid "&Input Audio Device"
-msgstr ""
+msgstr "Ses &giriş aygıtı"
 
 #: i18n.py:11
 msgid "Application &Language (requires restart)"
-msgstr ""
+msgstr "Uygulama &dili (yeniden başlatma gerekli)"
 
 #: interface.py:36
 #, python-format
@@ -67,7 +67,7 @@ msgstr "&Bir sorun bildir..."
 #: menu.py:18
 #, python-format
 msgid "&Activate %s..."
-msgstr "%s ürününü etkinleştir"
+msgstr "%s ürününü etkinleştir..."
 
 #: menu.py:20
 msgid "Check for &Update"

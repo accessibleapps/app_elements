@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-05-12 13:08-0600\n"
-"PO-Revision-Date: 2014-04-16 09:51+0200\n"
+"POT-Creation-Date: 2014-06-02 01:34-0600\n"
+"PO-Revision-Date: 2014-05-19 07:33+0200\n"
 "Last-Translator: Jacques van Schalkwyk <jakalas1@hotmail.com>\n"
 "Language-Team: af <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
@@ -20,15 +20,15 @@ msgstr ""
 
 #: audio.py:9
 msgid "&Output audio device"
-msgstr ""
+msgstr "&Uitgaande audio apparaat"
 
 #: audio.py:11
 msgid "&Input Audio Device"
-msgstr ""
+msgstr "&Inkomende Audio Apparaat"
 
 #: i18n.py:11
 msgid "Application &Language (requires restart)"
-msgstr ""
+msgstr "Toepassings &Taal (verlang herbegin)"
 
 #: interface.py:36
 #, python-format
