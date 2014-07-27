@@ -20,3 +20,6 @@ class HelpMenu(forms.Menu):
   check_for_update = MenuItem(label=__("Check for &Update"), callback=app_elements.interface.check_for_update)
  about = MenuItem(label=__("&About %s...") % application.name, callback=app_elements.interface.show_about_dialog)
 
+ def render(self, *args, **kwargs):
+  super(HelpMenu, self).render(*args, **kwargs)
+  self.about.set_as_mac_about_menu_item()
