@@ -31,4 +31,7 @@ class LanguageSelectionPanel(wx_forms.AutoSizedPanel):
   locale = self.locales[self.language.get_index()]
   if 'UI' not in application.config:
    application.config['UI'] = {}
-  application.config['UI']['language'] = locale.language
+  locale_id = locale.language
+  if locale.territory:
+   locale_id += "_%s" % locale.territory
+  application.config['UI']['language'] = locale_id
