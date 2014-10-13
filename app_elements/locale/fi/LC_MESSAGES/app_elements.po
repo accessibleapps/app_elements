@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-06-02 01:34-0600\n"
-"PO-Revision-Date: 2014-05-04 16:29+0200\n"
+"POT-Creation-Date: 2014-10-13 15:21-0600\n"
+"PO-Revision-Date: 2014-07-17 10:25+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: fi <jani.kinnunen@wippies.fi>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
@@ -37,7 +37,7 @@ msgstr "Copyright %d %s"
 
 #: interface.py:44
 msgid "Report an Issue"
-msgstr "Ilmoita ongelma"
+msgstr "Ilmoita ongelmasta"
 
 #: interface.py:58
 msgid "Error"
@@ -62,7 +62,7 @@ msgstr "%s-&ohje"
 
 #: menu.py:16
 msgid "&Report an Issue..."
-msgstr "&Ilmoita ongelma..."
+msgstr "&Ilmoita ongelmasta..."
 
 #: menu.py:18
 #, python-format
@@ -76,5 +76,5 @@ msgstr "Tarkista &päivitykset"
 #: menu.py:21
 #, python-format
 msgid "&About %s..."
-msgstr "&Tietoja sovelluksesta %s..."
+msgstr "&Tietoja %sista..."
 
