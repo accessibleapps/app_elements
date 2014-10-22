@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-10-13 15:21-0600\n"
-"PO-Revision-Date: 2014-08-03 14:40-0400\n"
+"POT-Creation-Date: 2014-10-22 17:36-0600\n"
+"PO-Revision-Date: 2014-10-22 17:30-0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: es_ES <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
@@ -33,7 +33,7 @@ msgstr "&Idioma de la aplicación (requiere reinicio)"
 #: interface.py:36
 #, python-format
 msgid "Copyright %d %s"
-msgstr "Copyright %d %sCopyright %d %s"
+msgstr "Copyright %d %s"
 
 #: interface.py:44
 msgid "Report an Issue"
@@ -58,7 +58,7 @@ msgstr "Gracias por tu informe!"
 #: menu.py:14
 #, python-format
 msgid "%s &Documentation"
-msgstr "%s &Documentación%s &Ayuda"
+msgstr "%s &Documentación"
 
 #: menu.py:16
 msgid "&Report an Issue..."
