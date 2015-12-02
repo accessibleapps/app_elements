@@ -3,6 +3,7 @@ logger = getLogger('app_elements.interface')
 import datetime
 import os
 import sys
+import webbrowser
 import wx
 import i18n_core
 from platform_utils import web_browser, paths
@@ -67,3 +68,6 @@ def activate_app():
 def check_for_update():
  import app_framework.updates
  app_framework.updates.check_for_update(application)
+
+def launch_website():
+	webbrowser.open(application.website)
