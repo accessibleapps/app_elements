@@ -12,6 +12,8 @@ i18n_core.install_module_translation('app_elements', module=sys.modules['app_ele
 
 class HelpMenu(forms.Menu):
  documentation = MenuItem(label=__("%s &Documentation") % application.name, hotkey='f1', callback=app_elements.interface.view_documentation)
+ if hasattr(application, 'website'):
+  website = MenuItem(label=__("{application_name} &Website").format(application_name=application.name), callback=app_elements.interface.launch_website)
  if app_framework.helpers.has_issue_reporter(application):
   report_issue = MenuItem(label=__("&Report an Issue..."), callback=app_elements.interface.report_issue)
  if app_framework.helpers.has_activation(application):
