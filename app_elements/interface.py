@@ -34,7 +34,7 @@ def view_documentation():
  web_browser.open(docpath)
 
 def show_about_dialog():
- popups.about_box(application.name, application.version, website=application.website, copyright=_(u"Copyright %d %s") % (datetime.date.today().year, application.author))
+ popups.about_box(name=application.name, version=application.version, website=application.website, copyright=_(u"Copyright %d %s") % (datetime.date.today().year, application.author))
 
 def exit():
  app_framework.shutdown.shutdown(application)
