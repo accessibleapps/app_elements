@@ -10,6 +10,7 @@ from platform_utils import web_browser, paths
 from wx_utils import popups
 import app_framework
 import app_framework.shutdown
+from app_framework.async import async, Task
 import app_elements
 application = app_elements.find_application_module()
 
@@ -39,7 +40,8 @@ def show_about_dialog():
 def exit():
  app_framework.shutdown.shutdown(application)
 
-def report_issue():
+@async
+def report_issue(*args, **kwargs):
  import gui_builder
  import issue_reporter.gui
  dlg = issue_reporter.gui.IssueReporterDialog(parent=application.main_window, title=__("Report an Issue"))
@@ -51,16 +53,13 @@ def report_issue():
  report.application_version = application.version
  report.log_paths.append(application.error_log_path)
  dlg.destroy()
- def future_complete(future):
-  try:
-   result = future.result()
-  except Exception as e:
-   logger.exception("Error submitting issue report. Not a good day.")
-   popups.warning_message(title=_("Error"), message=_("There was an issue submitting your issue report. Badness."))
-   return
-  popups.message_box(title=_("Issue submitted"), message=_("Thanks for your report!"))
- f = application.executor.submit(application.issue_reporter.send_report, report)
- f.add_done_callback(lambda f: wx.CallAfter(future_complete, f))
+ try:
+  yield Task(application.issue_reporter.send_report, report)
+ except Exception as e:
+  logger.exception("Error submitting issue report. Not a good day.")
+  popups.warning_message(title=_("Error"), message=_("There was an issue submitting your issue report. Badness."))
+  return
+ popups.message_box(title=_("Issue submitted"), message=_("Thanks for your report!"))
 
 def activate_app():
  application.activation_manager.prompt_for_activation()
