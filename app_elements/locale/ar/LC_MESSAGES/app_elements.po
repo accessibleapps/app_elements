@@ -8,16 +8,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-09-04 10:01-0600\n"
+"POT-Creation-Date: 2015-12-23 19:46-0700\n"
 "PO-Revision-Date: 2014-07-21 16:29+0200\n"
 "Last-Translator: \n"
+"Language: ar\n"
 "Language-Team: ar <LL@li.org>\n"
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n>=3 "
 "&& n<=10 ? 3 : n>=11 && n<=99 ? 4 : 5)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.0\n"
+"Generated-By: Babel 2.1.1\n"
 
 #: audio.py:9
 msgid "&Output audio device"
@@ -31,51 +32,59 @@ msgstr "أداةُ إدخالِ الصوتْ"
 msgid "Application &Language (requires restart)"
 msgstr "لغةُ البرنامج. (قدْ تحتاجُ إلى إعادةِ تشغيلِ البرنامجْ)"
 
-#: interface.py:36
+#: interface.py:38
 #, python-format
 msgid "Copyright %d %s"
 msgstr "جميعُ الحقوقِ محفوظةٌ لِـ %d %s"
 
-#: interface.py:44
+#: interface.py:47
 msgid "Report an Issue"
 msgstr "إرسالُ تقريرِ خطأٍ إلى المطوِّرْ"
 
-#: interface.py:58
+#: interface.py:60
 msgid "Error"
 msgstr "خطأ"
 
-#: interface.py:58
+#: interface.py:60
 msgid "There was an issue submitting your issue report. Badness."
 msgstr "حَدَثَ خطأٌ أثناءَ إرسالِ التقريرْ. لسوءِ الحظْ"
 
-#: interface.py:60
+#: interface.py:62
 msgid "Issue submitted"
 msgstr "تَمَّ إرسالُ التقريرِ بنجاحْ"
 
-#: interface.py:60
+#: interface.py:62
 msgid "Thanks for your report!"
 msgstr "نَشْكُرُكَ على هذا التقرير. نحنُ في قِمَّةِ الإِمْتِنَانِ لك."
 
-#: menu.py:14
+#: menu.py:15
 #, python-format
 msgid "%s &Documentation"
 msgstr "مُسْتَنَداتُ المساعَدَةِ لِـ %s"
 
-#: menu.py:16
+#: menu.py:17
+msgid "{application_name} &Website"
+msgstr ""
+
+#: menu.py:19
 msgid "&Report an Issue..."
 msgstr "إرسالُ تقريرِ خطأٍ إلى المطوِّرْ"
 
-#: menu.py:18
+#: menu.py:21
 #, python-format
 msgid "&Activate %s..."
 msgstr "تفعيلُ %s.."
 
-#: menu.py:20
+#: menu.py:23
 msgid "Check for &Update"
 msgstr "البحثُ عن التَّحْدِيثَاتْ"
 
-#: menu.py:21
+#: menu.py:24
 #, python-format
 msgid "&About %s..."
 msgstr "&عن %s"
+
+#: startup.py:13
+msgid "&Run at startup"
+msgstr ""
 
