@@ -1,4 +1,4 @@
-# Finnish translations for app_elements.
+# Spanish (Spain) translations for app_elements.
 # Copyright (C) 2013 Christopher Toth
 # This file is distributed under the same license as the app_elements
 # project.
@@ -8,28 +8,29 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-01-13 14:16-0700\n"
-"PO-Revision-Date: 2015-12-22 07:23+0200\n"
-"Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
-"Language: fi\n"
-"Language-Team: fi <janikinnunen340@gmail.com>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2015-12-23 19:46-0700\n"
+"PO-Revision-Date: 2015-12-28 23:03-0500\n"
+"Language: es_ES\n"
+"Language-Team: es_ES <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.1.1\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 1.8.6\n"
 
 #: audio.py:9
 msgid "&Output audio device"
-msgstr "Äänen ul&ostulolaite"
+msgstr "&Dispositivo de salida"
 
 #: audio.py:11
 msgid "&Input Audio Device"
-msgstr "Äänen s&isääntulolaite"
+msgstr "&Dispositivo de entrada"
 
 #: i18n.py:11
 msgid "Application &Language (requires restart)"
-msgstr "Sovelluksen &kieli (edellyttää uudelleenkäynnistystä)"
+msgstr "&Idioma de la aplicación (requiere reiniciar)"
 
 #: interface.py:38
 #, python-format
@@ -38,52 +39,52 @@ msgstr "Copyright %d %s"
 
 #: interface.py:47
 msgid "Report an Issue"
-msgstr "Ilmoita ongelmasta"
+msgstr "Informar un problema"
 
 #: interface.py:60
 msgid "Error"
-msgstr "Virhe"
+msgstr "Error"
 
 #: interface.py:60
 msgid "There was an issue submitting your issue report. Badness."
-msgstr "Virhe lähetettäessä ongelmaraporttia."
+msgstr "Hubo un problema al presentar su informe de error."
 
 #: interface.py:62
 msgid "Issue submitted"
-msgstr "Ongelmaraportti lähetetty"
+msgstr "Problema presentado"
 
 #: interface.py:62
 msgid "Thanks for your report!"
-msgstr "Kiitos raportista!"
+msgstr "Gracias por tu informe!"
 
 #: menu.py:15
 #, python-format
 msgid "%s &Documentation"
-msgstr "%sin &ohje"
+msgstr "%s &Documentación"
 
 #: menu.py:17
 msgid "{application_name} &Website"
-msgstr "{application_name}in &verkkosivu"
+msgstr "{application_name} &Website"
 
 #: menu.py:19
 msgid "&Report an Issue..."
-msgstr "&Ilmoita ongelmasta..."
+msgstr "&Informar un problema"
 
 #: menu.py:21
 #, python-format
 msgid "&Activate %s..."
-msgstr "&Aktivoi %s..."
+msgstr "&Activar %s..."
 
 #: menu.py:23
 msgid "Check for &Update"
-msgstr "Tarkista &päivitykset"
+msgstr "Buscar &actualización"
 
 #: menu.py:24
 #, python-format
 msgid "&About %s..."
-msgstr "&Tietoja %sista..."
+msgstr "&Acerca de %s..."
 
 #: startup.py:13
 msgid "&Run at startup"
-msgstr "&Suorita käynnistettäessä"
+msgstr "&Run at startup"
 

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-12-23 19:46-0700\n"
-"PO-Revision-Date: 2014-07-21 16:29+0200\n"
+"POT-Creation-Date: 2016-01-13 14:16-0700\n"
+"PO-Revision-Date: 2016-01-13 12:10+0300\n"
 "Last-Translator: \n"
 "Language: ar\n"
 "Language-Team: ar <LL@li.org>\n"
@@ -30,7 +30,7 @@ msgstr "أداةُ إدخالِ الصوتْ"
 
 #: i18n.py:11
 msgid "Application &Language (requires restart)"
-msgstr "لغةُ البرنامج. (قدْ تحتاجُ إلى إعادةِ تشغيلِ البرنامجْ)"
+msgstr "لغةُ البرنامج. (تحتاجُ إلى إعادةِ تشغيلِ البرنامجْ)"
 
 #: interface.py:38
 #, python-format
@@ -47,7 +47,7 @@ msgstr "خطأ"
 
 #: interface.py:60
 msgid "There was an issue submitting your issue report. Badness."
-msgstr "حَدَثَ خطأٌ أثناءَ إرسالِ التقريرْ. لسوءِ الحظْ"
+msgstr "نأسف، لقد حَدَثَ خطأٌ أثناءَ إرسالِ التقريرْ."
 
 #: interface.py:62
 msgid "Issue submitted"
@@ -55,36 +55,36 @@ msgstr "تَمَّ إرسالُ التقريرِ بنجاحْ"
 
 #: interface.py:62
 msgid "Thanks for your report!"
-msgstr "نَشْكُرُكَ على هذا التقرير. نحنُ في قِمَّةِ الإِمْتِنَانِ لك."
+msgstr "نَشْكُرُكَ على هذا التقرير."
 
 #: menu.py:15
 #, python-format
 msgid "%s &Documentation"
-msgstr "مُسْتَنَداتُ المساعَدَةِ لِـ %s"
+msgstr "مُسْتَنَداتُ الم&ساعَدَةِ لِـ %s"
 
 #: menu.py:17
 msgid "{application_name} &Website"
-msgstr ""
+msgstr "المو&قع الإلكتروني ل{application_name}"
 
 #: menu.py:19
 msgid "&Report an Issue..."
-msgstr "إرسالُ تقريرِ خطأٍ إلى المطوِّرْ"
+msgstr "إ&رسالُ تقريرِ خطأٍ إلى المطوِّرْ..."
 
 #: menu.py:21
 #, python-format
 msgid "&Activate %s..."
-msgstr "تفعيلُ %s.."
+msgstr "ت&فعيلُ %s..."
 
 #: menu.py:23
 msgid "Check for &Update"
-msgstr "البحثُ عن التَّحْدِيثَاتْ"
+msgstr "البحثُ عن &تَحْدِيثَاتْ"
 
 #: menu.py:24
 #, python-format
 msgid "&About %s..."
-msgstr "&عن %s"
+msgstr "&حول %s..."
 
 #: startup.py:13
 msgid "&Run at startup"
-msgstr ""
+msgstr "الت&شغيل عند بدء الجهاز"
 
