@@ -1,4 +1,5 @@
 from __future__ import absolute_import
+import sys
 import locale
 import i18n_core
 import babel
@@ -14,7 +15,9 @@ class LanguageSelectionPanel(wx_forms.AutoSizedPanel):
 	def __init__(self, *args, **kwargs):
 		super(LanguageSelectionPanel, self).__init__(*args, **kwargs)
 		locales = list(i18n_core.get_available_locales(application.name))
-		self.locales = sorted(locales, key=lambda i: i.language, cmp=locale.strcoll)
+		if sys.version_info[0] < 3:
+			self.locales = sorted(locales, key=lambda i: i.language, cmp=locale.strcoll)
+		self.locales = sorted(locales, key=lambda i: locale.strxfrm(i.language))
 
 	def render(self, *args, **kwargs):
 		super(LanguageSelectionPanel, self).render(*args, **kwargs)
