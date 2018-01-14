@@ -1,5 +1,5 @@
 from __future__ import absolute_import
-from . import locale
+import locale
 import i18n_core
 import babel
 
