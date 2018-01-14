@@ -1,6 +1,9 @@
 from logging import getLogger
 logger = getLogger('app_elements.startup')
-import _winreg
+try:
+	import winreg as _winreg
+except ImportError:
+	import _winreg
 from platform_utils import paths
 
 from wx_utils import forms as wx_forms
