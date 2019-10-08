@@ -6,7 +6,7 @@ import sys
 import webbrowser
 import wx
 import i18n_core
-from platform_utils import web_browser, paths
+from platform_utils import paths
 from wx_utils import popups
 import app_framework
 import app_framework.shutdown
@@ -32,7 +32,7 @@ def view_documentation():
 			docpath = os.path.join(docpath, locale)
 	docpath = os.path.join(docpath, 'readme.html')
 	docpath = 'file://%s' % os.path.abspath(docpath)
-	web_browser.open(docpath)
+	webbrowser.open(docpath)
 
 def show_about_dialog():
 	popups.about_box(name=application.name, version=application.version, website=application.website, copyright=_(u"Copyright %d %s") % (datetime.date.today().year, application.author))
