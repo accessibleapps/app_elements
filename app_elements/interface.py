@@ -10,7 +10,7 @@ from platform_utils import web_browser, paths
 from wx_utils import popups
 import app_framework
 import app_framework.shutdown
-from app_framework.async import async, Task
+from app_framework.background import asynchronous, Task
 import app_elements
 application = app_elements.find_application_module()
 
@@ -40,7 +40,7 @@ def show_about_dialog():
 def exit():
 	app_framework.shutdown.shutdown(application)
 
-@async
+@asynchronous
 def report_issue(*args, **kwargs):
 	import gui_builder
 	import issue_reporter.gui
