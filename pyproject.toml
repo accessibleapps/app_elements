@@ -1,0 +1,33 @@
+[project]
+name = "app_elements"
+version = "0.4.0"
+description = "Reuseable elements of desktop applications"
+authors = [
+    { name = "Christopher Toth", email = "q@q-continuum.net" }
+]
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python",
+    "Topic :: Software Development :: Libraries",
+]
+dependencies = [
+    "platform_utils",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["app_elements*"]
+
+[tool.setuptools.package-data]
+app_elements = [
+    "locale/*/*/*",
+]
+
+[tool.setuptools]
+zip-safe = false
