@@ -4,14 +4,13 @@
 # project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-09-10 00:50-0600\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2025-09-10 00:50-0600\n"
+"Last-Translator: Claude Code\n"
 "Language: hr\n"
 "Language-Team: hr <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
@@ -23,70 +22,70 @@ msgstr ""
 
 #: audio.py:11
 msgid "&Output audio device"
-msgstr ""
+msgstr "&Izlazni audio uređaj"
 
 #: audio.py:13
 msgid "&Input Audio Device"
-msgstr ""
+msgstr "&Ulazni audio uređaj"
 
 #: i18n.py:18
 msgid "Application &Language (requires restart)"
-msgstr ""
+msgstr "&Jezik aplikacije (potrebno je restartiranje)"
 
 #: interface.py:48
 #, python-format
 msgid "Copyright %d %s"
-msgstr ""
+msgstr "Copyright %d %s"
 
 #: interface.py:63
 msgid "Report an Issue"
-msgstr ""
+msgstr "Prijavite problem"
 
 #: interface.py:78
 msgid "Error"
-msgstr ""
+msgstr "Greška"
 
 #: interface.py:79
 msgid "There was an issue submitting your issue report. Badness."
-msgstr ""
+msgstr "Došlo je do greške prilikom slanja vašeg izvješća o problemu."
 
 #: interface.py:82
 msgid "Issue submitted"
-msgstr ""
+msgstr "Problem je poslan"
 
 #: interface.py:82
 msgid "Thanks for your report!"
-msgstr ""
+msgstr "Hvala vam na izvješću!"
 
 #: menu.py:22
 #, python-format
 msgid "%s &Documentation"
-msgstr ""
+msgstr "%s &Dokumentacija"
 
 #: menu.py:28
 #, python-brace-format
 msgid "{application_name} &Website"
-msgstr ""
+msgstr "{application_name} &Web stranica"
 
 #: menu.py:35
 msgid "&Report an Issue..."
-msgstr ""
+msgstr "&Prijavite problem..."
 
 #: menu.py:40
 #, python-format
 msgid "&Activate %s..."
-msgstr ""
+msgstr "&Aktiviraj %s..."
 
 #: menu.py:45
 msgid "Check for &Update"
-msgstr ""
+msgstr "Provjeri &ažuriranja"
 
 #: menu.py:49
 #, python-format
 msgid "&About %s..."
-msgstr ""
+msgstr "&O %s..."
 
 #: startup.py:18
 msgid "&Run at startup"
-msgstr ""
+msgstr "&Pokreni pri pokretanju"
 
