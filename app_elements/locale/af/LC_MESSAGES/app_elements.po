@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-09-10 00:50-0600\n"
-"PO-Revision-Date: 2014-05-19 07:33+0200\n"
+"PO-Revision-Date: 2025-09-10 00:50-0600\n"
 "Last-Translator: Jacques van Schalkwyk <jakalas1@hotmail.com>\n"
 "Language: af\n"
 "Language-Team: af <LL@li.org>\n"
@@ -64,7 +64,7 @@ msgstr "%s &Dokumentasie"
 #: menu.py:28
 #, python-brace-format
 msgid "{application_name} &Website"
-msgstr ""
+msgstr "{application_name} &Webwerf"
 
 #: menu.py:35
 msgid "&Report an Issue..."
@@ -86,5 +86,5 @@ msgstr "&Oor %s..."
 
 #: startup.py:18
 msgid "&Run at startup"
-msgstr ""
+msgstr "&Begin met opstoot"
 
