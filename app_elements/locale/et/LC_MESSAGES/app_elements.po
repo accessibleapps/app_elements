@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-09-10 00:50-0600\n"
-"PO-Revision-Date: 2014-01-15 22:00+0200\n"
+"PO-Revision-Date: 2025-09-10 00:50-0600\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: et\n"
 "Language-Team: et <Jakob.rsn@gmail.com>\n"
@@ -21,15 +21,15 @@ msgstr ""
 
 #: audio.py:11
 msgid "&Output audio device"
-msgstr ""
+msgstr "&Väljund heliseade"
 
 #: audio.py:13
 msgid "&Input Audio Device"
-msgstr ""
+msgstr "&Sisend heliseade"
 
 #: i18n.py:18
 msgid "Application &Language (requires restart)"
-msgstr ""
+msgstr "Rakenduse &keel (vajab taaskäivitust)"
 
 #: interface.py:48
 #, python-format
@@ -38,23 +38,23 @@ msgstr "Copyright %d %s"
 
 #: interface.py:63
 msgid "Report an Issue"
-msgstr ""
+msgstr "Teata probleemist"
 
 #: interface.py:78
 msgid "Error"
-msgstr ""
+msgstr "Viga"
 
 #: interface.py:79
 msgid "There was an issue submitting your issue report. Badness."
-msgstr ""
+msgstr "Probleemi raporti saatmisel tekkis viga."
 
 #: interface.py:82
 msgid "Issue submitted"
-msgstr ""
+msgstr "Probleem on esitatud"
 
 #: interface.py:82
 msgid "Thanks for your report!"
-msgstr ""
+msgstr "Aitäh raporti eest!"
 
 #: menu.py:22
 #, python-format
@@ -64,20 +64,20 @@ msgstr "%s &Dokumentatsioon"
 #: menu.py:28
 #, python-brace-format
 msgid "{application_name} &Website"
-msgstr ""
+msgstr "{application_name} &veebileht"
 
 #: menu.py:35
 msgid "&Report an Issue..."
-msgstr ""
+msgstr "&Teata probleemist..."
 
 #: menu.py:40
 #, python-format
 msgid "&Activate %s..."
-msgstr ""
+msgstr "&Aktiveeri %s..."
 
 #: menu.py:45
 msgid "Check for &Update"
-msgstr ""
+msgstr "Kontrolli &uuendusi"
 
 #: menu.py:49
 #, python-format
@@ -86,5 +86,5 @@ msgstr "&Rohkem %s..."
 
 #: startup.py:18
 msgid "&Run at startup"
-msgstr ""
+msgstr "&Käivita alglaadimisel"
 
