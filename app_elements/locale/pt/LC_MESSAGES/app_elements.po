@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-09-10 00:50-0600\n"
-"PO-Revision-Date: 2013-12-11 08:41-0300\n"
+"PO-Revision-Date: 2025-09-10 00:50-0600\n"
 "Last-Translator: Matheus Rheine <matheus_rheine@unifebe.edu.br>\n"
 "Language: pt\n"
 "Language-Team: Matheus Rheine <matheus_rheine@unifebe.edu.br>\n"
@@ -21,15 +21,15 @@ msgstr ""
 
 #: audio.py:11
 msgid "&Output audio device"
-msgstr ""
+msgstr "Dispositivo de áudio de &saída"
 
 #: audio.py:13
 msgid "&Input Audio Device"
-msgstr ""
+msgstr "Dispositivo de áudio de &entrada"
 
 #: i18n.py:18
 msgid "Application &Language (requires restart)"
-msgstr ""
+msgstr "&Idioma da aplicação (requer reinicialização)"
 
 #: interface.py:48
 #, python-format
@@ -38,23 +38,23 @@ msgstr "Copyright %d %s"
 
 #: interface.py:63
 msgid "Report an Issue"
-msgstr ""
+msgstr "Reportar um Problema"
 
 #: interface.py:78
 msgid "Error"
-msgstr ""
+msgstr "Erro"
 
 #: interface.py:79
 msgid "There was an issue submitting your issue report. Badness."
-msgstr ""
+msgstr "Houve um problema ao enviar seu relatório de problema."
 
 #: interface.py:82
 msgid "Issue submitted"
-msgstr ""
+msgstr "Problema submetido"
 
 #: interface.py:82
 msgid "Thanks for your report!"
-msgstr ""
+msgstr "Obrigado pelo relatório!"
 
 #: menu.py:22
 #, python-format
@@ -64,20 +64,20 @@ msgstr "%s &Manual"
 #: menu.py:28
 #, python-brace-format
 msgid "{application_name} &Website"
-msgstr ""
+msgstr "&Website do {application_name}"
 
 #: menu.py:35
 msgid "&Report an Issue..."
-msgstr ""
+msgstr "&Reportar um Problema..."
 
 #: menu.py:40
 #, python-format
 msgid "&Activate %s..."
-msgstr ""
+msgstr "&Ativar %s..."
 
 #: menu.py:45
 msgid "Check for &Update"
-msgstr ""
+msgstr "Verificar &Atualizações"
 
 #: menu.py:49
 #, python-format
@@ -86,5 +86,5 @@ msgstr "&Sobre %s..."
 
 #: startup.py:18
 msgid "&Run at startup"
-msgstr ""
+msgstr "&Executar na inicialização"
 
