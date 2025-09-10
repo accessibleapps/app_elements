@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-09-10 00:50-0600\n"
-"PO-Revision-Date: 2014-05-04 10:08-0800\n"
+"PO-Revision-Date: 2025-09-10 00:50-0600\n"
 "Last-Translator: Crystal <crystal@e-mail.ua>\n"
 "Language: ka\n"
 "Language-Team: georgian translation team <beqaprogger@gmail.com>\n"
@@ -47,9 +47,7 @@ msgstr "შეცდომა"
 
 #: interface.py:79
 msgid "There was an issue submitting your issue report. Badness."
-msgstr ""
-"პრობლემის შესახებ შეტყობინების გაგზავნის დროს მოხდა შეცდომა,რაც ძალიან "
-"ცუდია."
+msgstr "პრობლემის შესახებ შეტყობინების გაგზავნის დროს მოხდა შეცდომა,რაც ძალიან ცუდია."
 
 #: interface.py:82
 msgid "Issue submitted"
@@ -67,7 +65,7 @@ msgstr "%s-ის &დოკუმენტაცია"
 #: menu.py:28
 #, python-brace-format
 msgid "{application_name} &Website"
-msgstr ""
+msgstr "{application_name}-ის &ვებსაიტი"
 
 #: menu.py:35
 msgid "&Report an Issue..."
@@ -89,5 +87,5 @@ msgstr "%s-ის &შესახებ..."
 
 #: startup.py:18
 msgid "&Run at startup"
-msgstr ""
+msgstr "&ჩართვა გაშვებისას"
 
