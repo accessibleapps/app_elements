@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-09-10 00:50-0600\n"
-"PO-Revision-Date: 2014-05-10 21:32+0400\n"
+"PO-Revision-Date: 2025-09-10 00:50-0600\n"
 "Last-Translator: Crystal <crystal@e-mail.ua>\n"
 "Language: uk_UA\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -22,15 +22,15 @@ msgstr ""
 
 #: audio.py:11
 msgid "&Output audio device"
-msgstr ""
+msgstr "&Вихідний аудіо пристрій"
 
 #: audio.py:13
 msgid "&Input Audio Device"
-msgstr ""
+msgstr "&Вхідний аудіо пристрій"
 
 #: i18n.py:18
 msgid "Application &Language (requires restart)"
-msgstr ""
+msgstr "&Мова додатку (потребує перезавантаження)"
 
 #: interface.py:48
 #, python-format
@@ -65,7 +65,7 @@ msgstr "&документація %s"
 #: menu.py:28
 #, python-brace-format
 msgid "{application_name} &Website"
-msgstr ""
+msgstr "&Веб-сайт {application_name}"
 
 #: menu.py:35
 msgid "&Report an Issue..."
@@ -87,5 +87,5 @@ msgstr "&Про програму %s..."
 
 #: startup.py:18
 msgid "&Run at startup"
-msgstr ""
+msgstr "&Запускати при старті"
 
