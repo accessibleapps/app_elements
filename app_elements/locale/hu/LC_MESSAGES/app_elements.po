@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-09-10 00:50-0600\n"
-"PO-Revision-Date: 2013-11-17 10:44+0100\n"
+"PO-Revision-Date: 2025-09-10 00:50-0600\n"
 "Last-Translator: Erion <None>\n"
 "Language: hu\n"
 "Language-Team: hu <LL@li.org>\n"
@@ -21,15 +21,15 @@ msgstr ""
 
 #: audio.py:11
 msgid "&Output audio device"
-msgstr ""
+msgstr "&Kimeneti hang eszköz"
 
 #: audio.py:13
 msgid "&Input Audio Device"
-msgstr ""
+msgstr "&Bemeneti hang eszköz"
 
 #: i18n.py:18
 msgid "Application &Language (requires restart)"
-msgstr ""
+msgstr "Alkalmazás &Nyelve (újraindítás szükséges)"
 
 #: interface.py:48
 #, python-format
@@ -38,23 +38,23 @@ msgstr "Copyright %d %s"
 
 #: interface.py:63
 msgid "Report an Issue"
-msgstr ""
+msgstr "Probléma jelentése"
 
 #: interface.py:78
 msgid "Error"
-msgstr ""
+msgstr "Hiba"
 
 #: interface.py:79
 msgid "There was an issue submitting your issue report. Badness."
-msgstr ""
+msgstr "Hiba történt a probléma jelentés küldésekor."
 
 #: interface.py:82
 msgid "Issue submitted"
-msgstr ""
+msgstr "Probléma elküldve"
 
 #: interface.py:82
 msgid "Thanks for your report!"
-msgstr ""
+msgstr "Köszönjük a jelentést!"
 
 #: menu.py:22
 #, python-format
@@ -64,20 +64,20 @@ msgstr "%s &Dokumentáció"
 #: menu.py:28
 #, python-brace-format
 msgid "{application_name} &Website"
-msgstr ""
+msgstr "{application_name} &Weboldal"
 
 #: menu.py:35
 msgid "&Report an Issue..."
-msgstr ""
+msgstr "&Probléma jelentése..."
 
 #: menu.py:40
 #, python-format
 msgid "&Activate %s..."
-msgstr ""
+msgstr "&Aktiválás %s..."
 
 #: menu.py:45
 msgid "Check for &Update"
-msgstr ""
+msgstr "&Frissítés keresése"
 
 #: menu.py:49
 #, python-format
@@ -86,5 +86,5 @@ msgstr "A %s &Névjegye..."
 
 #: startup.py:18
 msgid "&Run at startup"
-msgstr ""
+msgstr "&Indítás rendszerindításkor"
 
