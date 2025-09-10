@@ -1,0 +1,88 @@
+# Hindi (India) translations for app_elements.
+# Copyright (C) 2016 Christopher Toth
+# This file is distributed under the same license as the app_elements
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: app_elements VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2016-10-19 16:18-0600\n"
+"PO-Revision-Date: 2025-09-10 12:00+0530\n"
+"Last-Translator: Claude <claude@anthropic.com>\n"
+"Language: hi_IN\n"
+"Language-Team: HI <>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: audio.py:9
+msgid "&Output audio device"
+msgstr "&आउटपुट ऑडियो डिवाइस"
+
+#: audio.py:11
+msgid "&Input Audio Device"
+msgstr "&इनपुट ऑडियो डिवाइस"
+
+#: i18n.py:11
+msgid "Application &Language (requires restart)"
+msgstr "एप्लिकेशन &भाषा (पुनः आरंभ आवश्यक)"
+
+#: interface.py:38
+#, python-format
+msgid "Copyright %d %s"
+msgstr "कॉपीराइट %d %s"
+
+#: interface.py:47
+msgid "Report an Issue"
+msgstr "समस्या रिपोर्ट करें"
+
+#: interface.py:60
+msgid "Error"
+msgstr "त्रुटि"
+
+#: interface.py:60
+msgid "There was an issue submitting your issue report. Badness."
+msgstr "आपकी समस्या रिपोर्ट भेजने में कोई समस्या हुई।"
+
+#: interface.py:62
+msgid "Issue submitted"
+msgstr "समस्या सबमिट की गई"
+
+#: interface.py:62
+msgid "Thanks for your report!"
+msgstr "आपकी रिपोर्ट के लिए धन्यवाद!"
+
+#: menu.py:15
+#, python-format
+msgid "%s &Documentation"
+msgstr "%s &दस्तावेज़ीकरण"
+
+#: menu.py:17
+msgid "{application_name} &Website"
+msgstr "{application_name} &वेबसाइट"
+
+#: menu.py:19
+msgid "&Report an Issue..."
+msgstr "समस्या &रिपोर्ट करें..."
+
+#: menu.py:21
+#, python-format
+msgid "&Activate %s..."
+msgstr "&सक्रिय करें %s..."
+
+#: menu.py:23
+msgid "Check for &Update"
+msgstr "&अपडेट के लिए जांचें"
+
+#: menu.py:24
+#, python-format
+msgid "&About %s..."
+msgstr "&के बारे में %s..."
+
+#: startup.py:13
+msgid "&Run at startup"
+msgstr "&स्टार्टअप में चलाएं"
