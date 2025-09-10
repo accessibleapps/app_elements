@@ -8,83 +8,84 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-10-19 16:18-0600\n"
+"POT-Creation-Date: 2025-09-10 00:50-0600\n"
 "PO-Revision-Date: 2014-05-10 21:32+0400\n"
 "Last-Translator: Crystal <crystal@e-mail.ua>\n"
 "Language: uk_UA\n"
 "Language-Team: ru <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Generated-By: Babel 2.17.0\n"
 
-#: audio.py:9
+#: audio.py:11
 msgid "&Output audio device"
 msgstr ""
 
-#: audio.py:11
+#: audio.py:13
 msgid "&Input Audio Device"
 msgstr ""
 
-#: i18n.py:11
+#: i18n.py:18
 msgid "Application &Language (requires restart)"
 msgstr ""
 
-#: interface.py:38
+#: interface.py:48
 #, python-format
 msgid "Copyright %d %s"
 msgstr "© %d %s"
 
-#: interface.py:47
+#: interface.py:63
 msgid "Report an Issue"
 msgstr "Повідомити про проблему"
 
-#: interface.py:60
+#: interface.py:78
 msgid "Error"
 msgstr "Помилка"
 
-#: interface.py:60
+#: interface.py:79
 msgid "There was an issue submitting your issue report. Badness."
 msgstr "У ході повідомлення про проблему виникла проблема."
 
-#: interface.py:62
+#: interface.py:82
 msgid "Issue submitted"
 msgstr "Повідомлення про проблему надіслано"
 
-#: interface.py:62
+#: interface.py:82
 msgid "Thanks for your report!"
 msgstr "Дякуємо за повідомлення!"
 
-#: menu.py:15
+#: menu.py:22
 #, python-format
 msgid "%s &Documentation"
 msgstr "&документація %s"
 
-#: menu.py:17
+#: menu.py:28
+#, python-brace-format
 msgid "{application_name} &Website"
 msgstr ""
 
-#: menu.py:19
+#: menu.py:35
 msgid "&Report an Issue..."
 msgstr "Пов&идомити про проблему..."
 
-#: menu.py:21
+#: menu.py:40
 #, python-format
 msgid "&Activate %s..."
 msgstr "&Активувати %s..."
 
-#: menu.py:23
+#: menu.py:45
 msgid "Check for &Update"
 msgstr "Перевірити &Оновлення"
 
-#: menu.py:24
+#: menu.py:49
 #, python-format
 msgid "&About %s..."
 msgstr "&Про програму %s..."
 
-#: startup.py:13
+#: startup.py:18
 msgid "&Run at startup"
 msgstr ""
 

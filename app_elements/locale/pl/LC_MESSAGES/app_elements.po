@@ -8,82 +8,83 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app_elements VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-10-19 16:18-0600\n"
+"POT-Creation-Date: 2025-09-10 00:50-0600\n"
 "PO-Revision-Date: 2016-05-02 23:37+0200\n"
 "Last-Translator: Roman Roczen <romek@ece.com.pl>\n"
 "Language: pl\n"
 "Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Generated-By: Babel 2.17.0\n"
 
-#: audio.py:9
+#: audio.py:11
 msgid "&Output audio device"
 msgstr "urządzenie &wyjścia audio"
 
-#: audio.py:11
+#: audio.py:13
 msgid "&Input Audio Device"
 msgstr "Urządzenie &wejścia audio"
 
-#: i18n.py:11
+#: i18n.py:18
 msgid "Application &Language (requires restart)"
 msgstr "Zmiana &języka (wymaga ponownego uruchomienia programu\")"
 
-#: interface.py:38
+#: interface.py:48
 #, python-format
 msgid "Copyright %d %s"
 msgstr "Prawa autorskie %d %s"
 
-#: interface.py:47
+#: interface.py:63
 msgid "Report an Issue"
 msgstr "Wyślij raport o błędzie"
 
-#: interface.py:60
+#: interface.py:78
 msgid "Error"
 msgstr "Błąd"
 
-#: interface.py:60
+#: interface.py:79
 msgid "There was an issue submitting your issue report. Badness."
 msgstr "Wystąpił problem z wysłaniem twojego raportu. Niedobrze."
 
-#: interface.py:62
+#: interface.py:82
 msgid "Issue submitted"
 msgstr "Raport wysłany"
 
-#: interface.py:62
+#: interface.py:82
 msgid "Thanks for your report!"
 msgstr "\"Dziękujemy za raport"
 
-#: menu.py:15
+#: menu.py:22
 #, python-format
 msgid "%s &Documentation"
 msgstr "&Podręcznik %s"
 
-#: menu.py:17
+#: menu.py:28
+#, python-brace-format
 msgid "{application_name} &Website"
 msgstr "\"&strona internetowa programu {application_name} \""
 
-#: menu.py:19
+#: menu.py:35
 msgid "&Report an Issue..."
 msgstr "&Wyślij raport o błędzie..."
 
-#: menu.py:21
+#: menu.py:40
 #, python-format
 msgid "&Activate %s..."
 msgstr "&Aktywuj %s"
 
-#: menu.py:23
+#: menu.py:45
 msgid "Check for &Update"
 msgstr "Sprawdź aktualizację"
 
-#: menu.py:24
+#: menu.py:49
 #, python-format
 msgid "&About %s..."
 msgstr "%s &Informacje..."
 
-#: startup.py:13
+#: startup.py:18
 msgid "&Run at startup"
 msgstr "&uruchom przy starcie systemu"
 
