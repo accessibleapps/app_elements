@@ -1,0 +1,89 @@
+# Norwegian Bokmål translations for app_elements.
+# Copyright (C) 2025 Christopher Toth
+# This file is distributed under the same license as the app_elements
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: app_elements VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-09-10 00:50-0600\n"
+"PO-Revision-Date: 2025-09-10 07:00+0100\n"
+"Last-Translator: Claude <noreply@anthropic.com>\n"
+"Language: nb\n"
+"Language-Team: Norwegian Bokmål <nb@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: audio.py:11
+msgid "&Output audio device"
+msgstr "&Utgang lydenhet"
+
+#: audio.py:13
+msgid "&Input Audio Device"
+msgstr "&Inngang lydenhet"
+
+#: i18n.py:18
+msgid "Application &Language (requires restart)"
+msgstr "Program&språk (krever omstart)"
+
+#: interface.py:48
+#, python-format
+msgid "Copyright %d %s"
+msgstr "Copyright %d %s"
+
+#: interface.py:63
+msgid "Report an Issue"
+msgstr "Rapporter et problem"
+
+#: interface.py:78
+msgid "Error"
+msgstr "Feil"
+
+#: interface.py:79
+msgid "There was an issue submitting your issue report. Badness."
+msgstr "Det oppstod et problem ved innsending av problemrapporten."
+
+#: interface.py:82
+msgid "Issue submitted"
+msgstr "Problem rapportert"
+
+#: interface.py:82
+msgid "Thanks for your report!"
+msgstr "Takk for rapporten!"
+
+#: menu.py:22
+#, python-format
+msgid "%s &Documentation"
+msgstr "%s &Dokumentasjon"
+
+#: menu.py:28
+#, python-brace-format
+msgid "{application_name} &Website"
+msgstr "{application_name} &Nettside"
+
+#: menu.py:35
+msgid "&Report an Issue..."
+msgstr "&Rapporter et problem..."
+
+#: menu.py:40
+#, python-format
+msgid "&Activate %s..."
+msgstr "&Aktiver %s..."
+
+#: menu.py:45
+msgid "Check for &Update"
+msgstr "Se etter &oppdatering"
+
+#: menu.py:49
+#, python-format
+msgid "&About %s..."
+msgstr "&Om %s..."
+
+#: startup.py:18
+msgid "&Run at startup"
+msgstr "&Kjør ved oppstart"
