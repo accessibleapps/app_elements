@@ -10,6 +10,9 @@ from wx_utils import forms as wx_forms
 
 import app_elements
 
+i18n_core.install_module_translation(
+    "app_elements", module=sys.modules["app_elements.i18n"]
+)
 application = app_elements.find_application_module()
 
 
@@ -22,8 +25,10 @@ class LanguageSelectionPanel(wx_forms.AutoSizedPanel):
         super(LanguageSelectionPanel, self).__init__(*args, **kwargs)
         locales = list(i18n_core.get_available_locales(application.name))
         if sys.version_info[0] < 3:
-            self.locales = sorted(locales, key=lambda i: i.language, cmp=locale.strcoll)
-        self.locales = sorted(locales, key=lambda i: locale.strxfrm(i.language))
+            self.locales = sorted(
+                locales, key=lambda i: i.language, cmp=locale.strcoll)
+        self.locales = sorted(
+            locales, key=lambda i: locale.strxfrm(i.language))
 
     def render(self, *args, **kwargs):
         super(LanguageSelectionPanel, self).render(*args, **kwargs)
