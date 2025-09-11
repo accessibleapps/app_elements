@@ -1,0 +1,89 @@
+# Traditional Chinese translations for app_elements.
+# Copyright (C) 2016 Christopher Toth
+# This file is distributed under the same license as the app_elements
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: app_elements VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-09-10 00:50-0600\n"
+"PO-Revision-Date: 2025-09-10 12:00+0000\n"
+"Last-Translator: Claude AI <noreply@anthropic.com>\n"
+"Language: tw\n"
+"Language-Team: tw <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: audio.py:11
+msgid "&Output audio device"
+msgstr "音訊輸出裝置(&O)"
+
+#: audio.py:13
+msgid "&Input Audio Device"
+msgstr "音訊輸入裝置(&I)"
+
+#: i18n.py:18
+msgid "Application &Language (requires restart)"
+msgstr "應用程式語言(&L)（需要重新啟動）"
+
+#: interface.py:48
+#, python-format
+msgid "Copyright %d %s"
+msgstr "版權所有 %d %s"
+
+#: interface.py:63
+msgid "Report an Issue"
+msgstr "報告問題"
+
+#: interface.py:78
+msgid "Error"
+msgstr "錯誤"
+
+#: interface.py:79
+msgid "There was an issue submitting your issue report. Badness."
+msgstr "提交問題報告時發生錯誤。"
+
+#: interface.py:82
+msgid "Issue submitted"
+msgstr "問題已提交"
+
+#: interface.py:82
+msgid "Thanks for your report!"
+msgstr "感謝您的報告！"
+
+#: menu.py:22
+#, python-format
+msgid "%s &Documentation"
+msgstr "%s 文件(&D)"
+
+#: menu.py:28
+#, python-brace-format
+msgid "{application_name} &Website"
+msgstr "{application_name} 網站(&W)"
+
+#: menu.py:35
+msgid "&Report an Issue..."
+msgstr "報告問題(&R)..."
+
+#: menu.py:40
+#, python-format
+msgid "&Activate %s..."
+msgstr "啟用 %s(&A)..."
+
+#: menu.py:45
+msgid "Check for &Update"
+msgstr "檢查更新(&U)"
+
+#: menu.py:49
+#, python-format
+msgid "&About %s..."
+msgstr "關於 %s(&A)..."
+
+#: startup.py:18
+msgid "&Run at startup"
+msgstr "開機時執行(&R)"
