@@ -1,0 +1,89 @@
+# Japanese translations for app_elements.
+# Copyright (C) 2025 Christopher Toth
+# This file is distributed under the same license as the app_elements
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: app_elements VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-09-10 00:50-0600\n"
+"PO-Revision-Date: 2025-09-10 12:00+0000\n"
+"Last-Translator: Claude <claude@anthropic.com>\n"
+"Language: ja\n"
+"Language-Team: JA <support@anthropic.com>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: audio.py:11
+msgid "&Output audio device"
+msgstr "オーディオ出力デバイス(&O)"
+
+#: audio.py:13
+msgid "&Input Audio Device"
+msgstr "オーディオ入力デバイス(&I)"
+
+#: i18n.py:18
+msgid "Application &Language (requires restart)"
+msgstr "アプリケーション言語(&L) (再起動が必要)"
+
+#: interface.py:48
+#, python-format
+msgid "Copyright %d %s"
+msgstr "Copyright %d %s"
+
+#: interface.py:63
+msgid "Report an Issue"
+msgstr "問題を報告"
+
+#: interface.py:78
+msgid "Error"
+msgstr "エラー"
+
+#: interface.py:79
+msgid "There was an issue submitting your issue report. Badness."
+msgstr "問題報告の送信中にエラーが発生しました。"
+
+#: interface.py:82
+msgid "Issue submitted"
+msgstr "問題が報告されました"
+
+#: interface.py:82
+msgid "Thanks for your report!"
+msgstr "ご報告ありがとうございます！"
+
+#: menu.py:22
+#, python-format
+msgid "%s &Documentation"
+msgstr "%s ドキュメント(&D)"
+
+#: menu.py:28
+#, python-brace-format
+msgid "{application_name} &Website"
+msgstr "{application_name} ウェブサイト(&W)"
+
+#: menu.py:35
+msgid "&Report an Issue..."
+msgstr "問題を報告(&R)..."
+
+#: menu.py:40
+#, python-format
+msgid "&Activate %s..."
+msgstr "%s をアクティベート(&A)..."
+
+#: menu.py:45
+msgid "Check for &Update"
+msgstr "アップデートを確認(&U)"
+
+#: menu.py:49
+#, python-format
+msgid "&About %s..."
+msgstr "%s について(&A)..."
+
+#: startup.py:18
+msgid "&Run at startup"
+msgstr "スタートアップで実行(&R)"
