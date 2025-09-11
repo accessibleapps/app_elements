@@ -1,0 +1,89 @@
+# Indonesian translations for app_elements.
+# Copyright (C) 2016 Christopher Toth
+# This file is distributed under the same license as the app_elements
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: app_elements VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-09-10 00:50-0600\n"
+"PO-Revision-Date: 2025-09-10 12:00+0700\n"
+"Last-Translator: Claude Code <claude@anthropic.com>\n"
+"Language: id\n"
+"Language-Team: ID <id@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: audio.py:11
+msgid "&Output audio device"
+msgstr "&Perangkat audio keluaran"
+
+#: audio.py:13
+msgid "&Input Audio Device"
+msgstr "&Perangkat Audio Masukan"
+
+#: i18n.py:18
+msgid "Application &Language (requires restart)"
+msgstr "&Bahasa Aplikasi (perlu restart)"
+
+#: interface.py:48
+#, python-format
+msgid "Copyright %d %s"
+msgstr "Copyright %d %s"
+
+#: interface.py:63
+msgid "Report an Issue"
+msgstr "Laporkan Masalah"
+
+#: interface.py:78
+msgid "Error"
+msgstr "Kesalahan"
+
+#: interface.py:79
+msgid "There was an issue submitting your issue report. Badness."
+msgstr "Terjadi masalah saat mengirim laporan masalah Anda."
+
+#: interface.py:82
+msgid "Issue submitted"
+msgstr "Masalah dilaporkan"
+
+#: interface.py:82
+msgid "Thanks for your report!"
+msgstr "Terima kasih atas laporan Anda!"
+
+#: menu.py:22
+#, python-format
+msgid "%s &Documentation"
+msgstr "&Dokumentasi %s"
+
+#: menu.py:28
+#, python-brace-format
+msgid "{application_name} &Website"
+msgstr "&Situs Web {application_name}"
+
+#: menu.py:35
+msgid "&Report an Issue..."
+msgstr "&Laporkan Masalah..."
+
+#: menu.py:40
+#, python-format
+msgid "&Activate %s..."
+msgstr "&Aktifkan %s..."
+
+#: menu.py:45
+msgid "Check for &Update"
+msgstr "Periksa &Pembaruan"
+
+#: menu.py:49
+#, python-format
+msgid "&About %s..."
+msgstr "Tentang %s..."
+
+#: startup.py:18
+msgid "&Run at startup"
+msgstr "&Jalankan saat startup"
