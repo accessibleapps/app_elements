@@ -27,7 +27,8 @@ class LanguageSelectionPanel(wx_forms.AutoSizedPanel):
         if sys.version_info[0] < 3:
             self.locales = sorted(
                 locales, key=lambda i: i.language, cmp=locale.strcoll)
-        self.locales = sorted(
+        else:
+            self.locales = sorted(
             locales, key=lambda i: locale.strxfrm(i.language))
 
     def render(self, *args, **kwargs):
