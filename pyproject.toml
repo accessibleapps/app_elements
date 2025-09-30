@@ -13,21 +13,23 @@ classifiers = [
     "Topic :: Software Development :: Libraries",
 ]
 dependencies = [
-    "platform_utils",
+    "platform_utils>=1.5.9",
+    "i18n_core >= 0.3.9",
+    # GUI dependencies
+    "wxpython==4.1.0; python_version <= '3.8'",
+    "wxpython; python_version > '3.8'",
+    # Git dependencies
+    "gui_builder @ git+https://github.com/AccessibleApps/gui_builder.git",
+    "issue_reporter @ git+https://github.com/accessibleapps/issue_reporter.git",
+    "async_gui @ git+https://github.com/robertpro/async_gui.git",
 ]
 
 [build-system]
-requires = ["setuptools>=61.0", "wheel"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
-[tool.setuptools.packages.find]
-where = ["."]
-include = ["app_elements*"]
+[tool.hatch.metadata]
+allow-direct-references = true
 
-[tool.setuptools.package-data]
-app_elements = [
-    "locale/*/*/*",
-]
-
-[tool.setuptools]
-zip-safe = false
+[tool.hatch.build.targets.wheel]
+packages = ["app_elements"]
