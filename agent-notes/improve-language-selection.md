@@ -17,12 +17,15 @@ set_items. The earlier investigation's claim to the contrary was corrected.
 
 # Surprises
 
-PR #2's initial CI passed, but the Chinese test constructed locales with
-Locale.parse, unlike the real i18n_core.locale_from_locale_id producer, which uses
-Locale(language, territory). Parsing added a script absent from catalog identities.
-Removed that unnecessary requested-locale parsing and corrected the existing
-Chinese regression to use real producer-shaped objects for both CN and TW.
-Persisting str(locale) now preserves the identity supplied by i18n_core exactly.
+PR #2's initial CI passed, but the Chinese fixture used Locale.parse, unlike the
+real i18n_core.locale_from_locale_id producer (Locale(language, territory)). The
+direct Chinese constructor fails with UnknownLocaleError under Babel 2.17.0, so
+those locales are skipped by that producer; claiming they reached the panel was
+wrong. Removed unnecessary requested-locale parsing and corrected the existing
+regression to use supported real catalog identities: this package's fr/fr_CA and
+QRead's hi_IN. Every fixture now uses the producer's direct-constructor shape.
+Persisting str(locale) preserves the supplied identity. Chinese discovery is an
+upstream i18n_core limitation, not fixed or claimed fixed in this PR.
 
 # Next step
 
