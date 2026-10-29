@@ -71,7 +71,7 @@ def report_issue(*args, **kwargs):
     error_log_path = getattr(application, "error_log_path", "")
     if error_log_path:
         for path in (error_log_path, "%s.old" % error_log_path):
-            if os.path.isfile(path):
+            if Path(path).is_file():
                 report.log_paths.append(path)
     dlg.destroy()
     try:

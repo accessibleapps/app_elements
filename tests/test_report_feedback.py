@@ -1,5 +1,7 @@
+import tempfile
 import types
 import unittest
+from pathlib import Path
 from unittest.mock import Mock, patch
 
 from support import load_component
@@ -41,7 +43,19 @@ class ReportFeedbackTests(unittest.TestCase):
             modules["wx_utils.popups"].message_box.assert_not_called()
 
     def test_success_keeps_report_metadata_and_confirmation(self):
-        with load_component("app_elements.interface", **self.application_values()) as (component, app, modules):
+        with tempfile.TemporaryDirectory() as directory:
+            error_log = Path(directory) / "errors.log"
+            error_log.touch()
+            Path("%s.old" % error_log).touch()
+            values = self.application_values()
+            values["error_log_path"] = str(error_log)
+            self.check_success(values, [str(error_log), "%s.old" % error_log])
+
+    def test_missing_logs_are_not_attached(self):
+        self.check_success(self.application_values(), [])
+
+    def check_success(self, values, log_paths):
+        with load_component("app_elements.interface", **values) as (component, app, modules):
             dialog, report = self.dialog(modules)
             with patch.dict("sys.modules", modules):
                 operation = component.report_issue()
@@ -50,7 +64,7 @@ class ReportFeedbackTests(unittest.TestCase):
                     operation.send(None)
             self.assertEqual(report.application_name, app.name)
             self.assertEqual(report.application_version, app.version)
-            self.assertEqual(report.log_paths, [app.error_log_path])
+            self.assertEqual(report.log_paths, log_paths)
             dialog.destroy.assert_called_once()
             modules["wx_utils.popups"].message_box.assert_called_once()
             modules["wx_utils.popups"].warning_message.assert_not_called()
