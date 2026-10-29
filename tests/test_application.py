@@ -15,6 +15,11 @@ class ApplicationContractTests(unittest.TestCase):
             self.assertFalse(hasattr(menu.HelpMenu, "activate"))
             self.assertFalse(hasattr(menu.HelpMenu, "report_issue"))
 
+    def test_exit_uses_the_framework_shutdown_owner(self):
+        with load_component("app_elements.interface") as (interface, application, modules):
+            interface.exit()
+            modules["app_framework.shutdown"].shutdown.assert_called_once_with(application)
+
 
 if __name__ == "__main__":
     unittest.main()
