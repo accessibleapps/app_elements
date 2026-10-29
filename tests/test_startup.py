@@ -75,6 +75,7 @@ class StartupTests(unittest.TestCase):
     def test_save_failure_shows_a_warning_and_does_not_claim_success(self):
         with load_component("app_elements.startup") as (component, _, modules):
             registry = modules["winreg"]
+            modules["platform_utils.paths"].get_executable.return_value = r"C:\Example\main.pyw"
             registry.OpenKey.side_effect = FileNotFoundError()
             registry.CreateKeyEx.side_effect = PermissionError("denied")
             panel = component.RunAtStartupPanel()

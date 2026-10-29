@@ -4,6 +4,11 @@ Correct the existing Windows startup panel and registration command.
 
 # State
 
+PR #4 is open. Initial CI ran 11 tests; ten passed and the save-failure regression
+errored because its get_executable double returned Mock instead of a path string.
+Corrected that fixture so it reaches the intended CreateKeyEx permission error.
+No production relaxation or added guard; waiting for repaired-head CI.
+
 Isolated branch based on improve/integration-contract (PR #1). Public panel and
 get_startup/set_startup names are unchanged. No system registry writes performed
 by development/tests; tests use a controlled winreg boundary.
