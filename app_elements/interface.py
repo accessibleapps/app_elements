@@ -68,7 +68,11 @@ def report_issue(*args, **kwargs):
     report = dlg.get_report()
     report.application_name = application.name
     report.application_version = application.version
-    report.log_paths.append(application.error_log_path)
+    error_log_path = getattr(application, "error_log_path", "")
+    if error_log_path:
+        for path in (error_log_path, "%s.old" % error_log_path):
+            if Path(path).is_file():
+                report.log_paths.append(path)
     dlg.destroy()
     try:
         yield Task(application.issue_reporter.send_report, report)
