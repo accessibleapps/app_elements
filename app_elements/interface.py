@@ -2,9 +2,9 @@ from logging import getLogger
 
 logger = getLogger("app_elements.interface")
 import datetime
-import os
 import sys
 import webbrowser
+from pathlib import Path
 
 import app_framework
 import app_framework.shutdown
@@ -25,19 +25,19 @@ i18n_core.install_module_translation("app_elements", module=sys.modules[__name__
 
 def view_documentation():
     if paths.is_frozen():
-        docpath = paths.embedded_data_path()
+        docpath = Path(paths.embedded_data_path())
     else:
-        docpath = os.path.join(paths.app_path(), "..", "documentation")
-    locale = application.locale
-    if os.path.exists(os.path.join(docpath, locale)):
-        docpath = os.path.join(docpath, locale)
-    else:
-        locale = locale.split("_")[0]
-        if os.path.exists(os.path.join(docpath, locale)):
-            docpath = os.path.join(docpath, locale)
-    docpath = os.path.join(docpath, "readme.html")
-    docpath = "file://%s" % os.path.abspath(docpath)
-    webbrowser.open(docpath)
+        docpath = Path(paths.app_path()).parent / "documentation"
+    locale = application.locale.split(".")[0].split("@")[0].replace("-", "_")
+    for language in (locale, locale.split("_")[0], ""):
+        document = docpath / language / "readme.html"
+        if document.is_file():
+            webbrowser.open(document.resolve().as_uri())
+            return
+    popups.warning_message(
+        title=_("Documentation unavailable"),
+        message=_("Documentation could not be found. Check that the documentation files are installed with this application."),
+    )
 
 
 def show_about_dialog():
