@@ -5,6 +5,11 @@ own PR. Q authorized implementation and separate PRs with "Make it so!".
 
 # State
 
+PR #1 is open. GitHub's repository Actions API reported enabled=false, explaining
+the absent checks. Enabled Actions as part of the requested CI work, preserving
+its allowed-actions policy. The next substantive push activates PR CI. README
+is also wired into distribution metadata. Three baseline tests are present.
+
 Based on origin/master in an isolated worktree; main checkout edits are preserved.
 This PR adds a README, controlled unittest harness, two baseline contract tests,
 and a Linux CI job for the documented test command and existing Hatchling build.

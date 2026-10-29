@@ -2,6 +2,7 @@
 name = "app_elements"
 version = "0.4.2"
 description = "Reuseable elements of desktop applications"
+readme = "README.md"
 authors = [
     { name = "Christopher Toth", email = "q@q-continuum.net" }
 ]
