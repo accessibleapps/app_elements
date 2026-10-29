@@ -17,8 +17,12 @@ set_items. The earlier investigation's claim to the contrary was corrected.
 
 # Surprises
 
-Babel resolves zh_CN to zh_Hans_CN, so matching must canonicalize the requested
-locale as well as using the locale object's full identity.
+PR #2's initial CI passed, but the Chinese test constructed locales with
+Locale.parse, unlike the real i18n_core.locale_from_locale_id producer, which uses
+Locale(language, territory). Parsing added a script absent from catalog identities.
+Removed that unnecessary requested-locale parsing and corrected the existing
+Chinese regression to use real producer-shaped objects for both CN and TW.
+Persisting str(locale) now preserves the identity supplied by i18n_core exactly.
 
 # Next step
 

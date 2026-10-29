@@ -1,7 +1,6 @@
 import locale
 import sys
 
-import babel
 import i18n_core
 from gui_builder import fields
 from wx_utils import forms as wx_forms
@@ -40,10 +39,6 @@ class LanguageSelectionPanel(wx_forms.AutoSizedPanel):
         index = 0
         for requested in (application.locale, i18n_core.DEFAULT_LOCALE):
             requested = requested.split(".")[0].split("@")[0].replace("-", "_").casefold()
-            try:
-                requested = str(babel.Locale.parse(requested)).casefold()
-            except (babel.UnknownLocaleError, ValueError):
-                pass
             if requested in identifiers:
                 index = identifiers.index(requested)
                 break
