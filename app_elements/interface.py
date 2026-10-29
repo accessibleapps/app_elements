@@ -73,10 +73,10 @@ def report_issue(*args, **kwargs):
     try:
         yield Task(application.issue_reporter.send_report, report)
     except Exception as e:
-        logger.exception("Error submitting issue report. Not a good day.")
+        logger.exception("Error submitting issue report")
         popups.warning_message(
-            title=_("Error"),
-            message=_("There was an issue submitting your issue report. Badness."),
+            title=_("Issue report not submitted"),
+            message=_("Your issue report could not be submitted. Please try again later."),
         )
         return
     popups.message_box(title=_("Issue submitted"), message=_("Thanks for your report!"))
